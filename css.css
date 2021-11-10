@@ -1,0 +1,98 @@
+#shell {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  width: 515px;
+  height: 790px;
+  border-radius: 5px;
+  background: red;
+}
+
+#side-door {
+  z-index: 2;
+  position: absolute;
+  /* display: flex; */
+  width: 110px;
+  height: 790px;
+  border-radius: 0 5px 5px 0;
+  background: blue;
+  right: 0;
+}
+
+#glass-display {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 535px;
+  border-radius: 10px;
+  background: white;
+  right: 140px;
+  top: 35px;
+}
+
+#screen {
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  width: 80px;
+  height: 60px;
+  border-radius: 2px;
+  background: black;
+  top: 35px;
+  right: 15px;
+}
+
+#credit-card {
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  width: 60px;
+  height: 100px;
+  border-radius: 5px;
+  background: gray;
+  top: 270px;
+  right: 25px;
+}
+
+#push {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  width: 255px;
+  height: 95px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: green;
+  top: 605px;
+  left: 80px;
+}
+
+
+
+/* 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 800px;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 10px;
+} */
