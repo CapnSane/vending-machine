@@ -39,6 +39,7 @@
   height: 60px;
   border-radius: 2px;
   background: black;
+  cursor: pointer;
   top: 35px;
   right: 15px;
 }
@@ -51,6 +52,7 @@
   height: 100px;
   border-radius: 5px;
   background: gray;
+  cursor: pointer;
   top: 270px;
   right: 25px;
 }
@@ -64,8 +66,17 @@
   border-radius: 10px;
   border: 2px solid white;
   background: green;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
   top: 605px;
   left: 80px;
+}
+
+#push:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
 }
 
 
