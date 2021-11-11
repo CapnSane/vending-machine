@@ -76,11 +76,8 @@
   border-radius: 10px;
   border: 2px solid white;
   background: black;
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
   top: 605px;
-  left: 80px;
+  left: 70px;
 }
 
 #push {
@@ -91,7 +88,7 @@
   border-radius: 3px;
   border: 2px solid rgb(61, 61, 61);
   background: white;
-  background-image: linear-gradient(to bottom, rgba(220, 0, 0, 0.8) 50%, rgba(80, 80, 80, 0.8) 50%);
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 1) 50%, rgba(80, 80, 80, 0.8) 50%);
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
@@ -99,7 +96,22 @@
   left: 20px;
 }
 
-#push:active {
+#push-bright {
+  z-index: 6;
+  position: absolute;
+  width: 210px;
+  height: 50px;
+  border-radius: 3px;
+  border: 2px solid rgba(61, 61, 61, 0.4);
+  background-image: linear-gradient(140deg, rgba(70, 70, 70, 0.3) 0%, rgba(190, 190, 190, 0.3) 50%, rgba(70, 70, 70, 0.3) 75%);
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  top: 20px;
+  left: 20px;
+}
+
+#push-bright:active {
   cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
