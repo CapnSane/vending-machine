@@ -29,7 +29,7 @@
   position: absolute;
   width: 350px;
   height: 535px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 2px solid rgba(20, 20, 20, 0.3);
   background: rgb(200, 200, 230);
   background-image: linear-gradient(140deg, rgba(170, 170, 170, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(190, 190, 215, 0.8) 75%);
