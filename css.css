@@ -8,6 +8,7 @@
   border: 2px solid rgb(61, 61, 61);
   /* background: red; */
   background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(200, 0, 0), rgba(255, 0, 0));
+  box-shadow: -1px 0 5px rgba(0, 0, 0, 0.3), 10px 25px 30px black;
 }
 
 #side-door {
@@ -86,7 +87,7 @@
   border-top: 10px solid red;
   height: 0;
   width: 34px;
-  top: 10px;
+  top: 12px;
   left: 8px;
 }
 
@@ -97,8 +98,8 @@
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   height: 0;
-  width: 5px;
-  top: 20px;
+  width: 4px;
+  top: 21px;
   left: 8px;
 }
 
@@ -110,11 +111,14 @@
   height: 20px;
   border-radius: 1px;
   border-top: 1px solid rgba(133, 133, 133, 0.8);
-  border-right: 1px solid rgb(60, 60, 60);
+  border-right: 1px solid rgb(40, 40, 40);
   border-bottom: 1px solid rgb(60, 60, 60);
   border-left: 1px solid rgba(160, 160, 160, 0.8);
+  background: black;
   background-image: linear-gradient(140deg, rgba(130, 130, 175, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(130, 130, 175, 0.8) 75%);
   top: 29px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+
 }
 
 #money-bill-entrance {
@@ -176,8 +180,8 @@
   width: 210px;
   height: 50px;
   border-radius: 3px;
-  border: 2px solid rgba(61, 61, 61, 0.4);
-  background-image: linear-gradient(140deg, rgba(70, 70, 70, 0.3) 0%, rgba(190, 190, 190, 0.3) 50%, rgba(70, 70, 70, 0.3) 75%);
+  border: 2px solid rgba(50, 50, 50, 1);
+  background-image: linear-gradient(140deg, rgba(30, 30, 30, 0.3) 0%, rgba(190, 190, 190, 0.3) 50%, rgba(255, 255, 255, 0.4) 50%, rgba(190, 190, 190, 0.3) 50%, rgba(30, 30, 30, 0.3) 90%);
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
@@ -189,6 +193,86 @@
   cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
+}
+
+#footL1 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 9px;
+  height: 22px;
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  background: black;
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 820px;
+  left: 30px;
+}
+
+#footL2 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 27px;
+  height: 5px;
+  border-radius: 0 0 1px 1px;
+  background: black;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 849px;
+  left: 22px;
+  box-shadow: 1px 1px 5px black
+}
+
+#footL3 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 27px;
+  height: 5px;
+  border-radius: 50% 50% 0 0;
+  background: black;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 844px;
+  left: 22px;
+}
+
+#footR1 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 9px;
+  height: 22px;
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  background: black;
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 820px;
+  left: 490px;
+}
+
+#footR2 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 27px;
+  height: 5px;
+  border-radius: 0 0 1px 1px;
+  background: black;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 849px;
+  left: 482px;
+  box-shadow: 1px 1px 5px black
+}
+
+#footR3 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 27px;
+  height: 5px;
+  border-radius: 50% 50% 0 0;
+  background: black;
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  top: 844px;
+  left: 482px;
 }
 
 .text-center {
