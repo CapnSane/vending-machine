@@ -11,7 +11,7 @@
   box-shadow: -1px 0 5px rgba(0, 0, 0, 0.3), 10px 25px 30px black;
 }
 
-#side-door {
+.side-door {
   z-index: 3;
   position: absolute;
   /* display: flex; */
@@ -24,7 +24,7 @@
   right: 0;
 }
 
-#glass-display {
+.glass-display {
   z-index: 4;
   display: flex;
   position: absolute;
@@ -38,7 +38,7 @@
   top: 35px;
 }
 
-#screen {
+.screen {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -55,7 +55,7 @@
   right: 15px;
 }
 
-#bg-money-bill1 {
+.bg-money-bill1 {
   z-index: 4;
   position: absolute;
   width: 54px;
@@ -68,7 +68,7 @@
   right: 28px;
 }
 
-#bg-money-bill2 {
+.bg-money-bill2 {
   z-index: 4;
   position: absolute;
   width: 50px;
@@ -81,7 +81,7 @@
   left: 1px;
 }
 
-#money-stamp1 {
+.money-stamp1 {
   z-index: 6;
   position: absolute;
   border-top: 10px solid red;
@@ -91,7 +91,7 @@
   left: 8px;
 }
 
-#money-stamp2 {
+.money-stamp2 {
   z-index: 6;
   position: absolute;
   border-top: 10px solid red;
@@ -104,7 +104,7 @@
 }
 
 
-#money-bill {
+.money-bill {
   z-index: 6;
   position: absolute;
   width: 49px;
@@ -121,7 +121,7 @@
 
 }
 
-#money-bill-entrance {
+.money-bill-entrance {
   z-index: 7;
   position: absolute;
   background: black;
@@ -132,7 +132,7 @@
   left: 3px;
 }
 
-#credit-card {
+.credit-card {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -146,7 +146,7 @@
   right: 25px;
 }
 
-#bg-push {
+.bg-push {
   z-index: 3;
   position: absolute;
   width: 255px;
@@ -158,7 +158,7 @@
   left: 70px;
 }
 
-#push {
+.push {
   z-index: 4;
   position: relative;
   width: 210px;
@@ -174,7 +174,7 @@
   left: 20px;
 }
 
-#push-bright {
+.push-bright {
   z-index: 6;
   position: absolute;
   width: 210px;
@@ -189,13 +189,13 @@
   left: 20px;
 }
 
-#push-bright:active {
+.push-bright:active {
   cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
 
-#footL1 {
+.footL1 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -208,7 +208,7 @@
   left: 30px;
 }
 
-#footL2 {
+.footL2 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -222,7 +222,7 @@
   box-shadow: 1px 1px 5px black
 }
 
-#footL3 {
+.footL3 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -235,7 +235,7 @@
   left: 22px;
 }
 
-#footR1 {
+.footR1 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -248,7 +248,7 @@
   left: 490px;
 }
 
-#footR2 {
+.footR2 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -262,7 +262,7 @@
   box-shadow: 1px 1px 5px black
 }
 
-#footR3 {
+.footR3 {
   z-index: 4;
   position: absolute;
   display: flex;
@@ -288,6 +288,13 @@
   color: white;
 }
 
+/* div.reflection {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  transform: scaleY(-1);
+} */
 
 /* 
 * {
@@ -296,7 +303,7 @@
 }
 
 canvas {
-  background: #eee;
+  background: .eee;
   display: block;
   margin: 0 auto;
   width: 800px;
