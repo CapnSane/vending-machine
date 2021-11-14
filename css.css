@@ -146,6 +146,82 @@
   right: 25px;
 }
 
+.machine-key1 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 60px;
+  height: 34px;
+  border-top-left-radius: 20%30px;
+  border-bottom-left-radius: 20%30px;
+  border-top-right-radius: 20%30px;
+  border-bottom-right-radius: 20%30px;
+  border: 1px solid rgba(141, 139, 139, 0.8);
+  background: rgb(20, 20, 20);
+  cursor: pointer;
+  top: 385px;
+  right: 35px;
+}
+
+.machine-key2 {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 56px;
+  height: 30px;
+  border-top-left-radius: 20%30px;
+  border-bottom-left-radius: 20%30px;
+  border-top-right-radius: 20%30px;
+  border-bottom-right-radius: 20%30px;
+  background: gray;
+  background-image: linear-gradient(140deg, rgba(130, 130, 175, 0.6) 0%, rgba(255, 255, 255, 0.6) 30%, rgba(100, 100, 145, 0.8) 75%);
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.bg-coin {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 52px;
+  height: 44px;
+  border: 1px solid red;
+  border-radius: 25% 25% 0 0;
+  border-bottom-left-radius: 100%30px;
+  border-bottom-right-radius: 100%30px;
+  /* border: 1px solid rgba(141, 139, 139, 0.8); */
+  background: black;
+  background-image: linear-gradient(180deg, rgba(39, 39, 39, 0.2) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(190, 190, 215, 0.1) 75%);
+  cursor: pointer;
+  top: 700px;
+  right: 15px;
+}
+
+.coin {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  width: 44px;
+  height: 37px;
+  border-right: 1px solid rgb(110, 110, 110);
+  border-bottom: 2px solid rgb(150, 150, 150);
+  border-left: 1px solid rgb(83, 83, 83);
+  border-radius: 20% 20% 0 0;
+  border-bottom-left-radius: 100%30px;
+  border-bottom-right-radius: 100%30px;
+  /* border: 1px solid rgba(141, 139, 139, 0.8); */
+  background: black;
+  background-image: linear-gradient(160deg,
+      rgba(39, 39, 39, 0.1) 10%,
+      rgba(210, 210, 210, 0.3) 30%,
+      rgba(190, 190, 215, 0.1) 70%,
+      rgba(230, 230, 230, 0.5) 90%);
+  cursor: pointer;
+  top: 3px;
+  left: 3px;
+}
+
 .bg-push {
   z-index: 3;
   position: absolute;
