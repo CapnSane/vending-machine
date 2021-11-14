@@ -196,81 +196,81 @@
 }
 
 .footL1 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 9px;
   height: 22px;
   border: 1px solid rgba(100, 100, 100, 0.3);
   background: black;
-  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.6) 5%, rgba(200, 200, 200, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
   top: 820px;
   left: 30px;
 }
 
 .footL2 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 27px;
   height: 5px;
   border-radius: 0 0 1px 1px;
   background: black;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(200, 200, 200, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
   top: 849px;
   left: 22px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 2px 2px 5px black;
 }
 
 .footL3 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 27px;
   height: 5px;
   border-radius: 50% 50% 0 0;
   background: black;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(200, 200, 200, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
   top: 844px;
   left: 22px;
 }
 
 .footR1 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 9px;
   height: 22px;
   border: 1px solid rgba(100, 100, 100, 0.3);
   background: black;
-  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.5) 5%, rgba(200, 200, 200, 0.7) 50%, rgba(70, 70, 70, 0.2) 86%);
   top: 820px;
   left: 490px;
 }
 
 .footR2 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 27px;
   height: 5px;
   border-radius: 0 0 1px 1px;
   background: black;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(200, 200, 200, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
   top: 849px;
   left: 482px;
   box-shadow: 1px 1px 5px black;
 }
 
 .footR3 {
-  z-index: 4;
+  z-index: 2;
   position: absolute;
   display: flex;
   width: 27px;
   height: 5px;
   border-radius: 50% 50% 0 0;
   background: black;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(255, 255, 255, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.8) 5%, rgba(200, 200, 200, 1) 30%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
   top: 844px;
   left: 482px;
 }
