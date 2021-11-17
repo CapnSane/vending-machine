@@ -367,9 +367,11 @@
   height: 22px;
   /* filter: blur(3px); */
   background: rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to right, rgba(200, 200, 200, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.3) 86%);
+  background-image: linear-gradient(to right, rgba(140, 140, 140, 0.6) 5%, rgba(230, 230, 230, 0.8) 50%, rgba(70, 70, 70, 0.7) 86%);
   top: 864px;
   left: 31px;
+  box-shadow: -3px 0 10px black;
+
 }
 
 .footL2-reflection {
