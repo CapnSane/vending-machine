@@ -161,8 +161,7 @@
   border-bottom-right-radius: 20%30px;
   border: 2px solid rgba(141, 139, 139, 0.8);
   background: rgb(20, 20, 20);
-  cursor: pointer;
-  top: 385px;
+  top: 380px;
   right: 24px;
 }
 
@@ -178,7 +177,6 @@
   border-bottom-right-radius: 20%30px;
   background: gray;
   background-image: linear-gradient(140deg, rgba(130, 130, 175, 0.6) 0%, rgba(255, 255, 255, 0.6) 30%, rgba(100, 100, 145, 0.8) 75%);
-  cursor: pointer;
   top: 2px;
   left: 2px;
 }
@@ -224,14 +222,13 @@
   display: flex;
   width: 70px;
   height: 60px;
-  border-top-left-radius: 50%30px;
-  border-top-right-radius: 10%10px;
-  border-bottom-left-radius: 15%10px;
-  border-bottom-right-radius: 30%20px;
+  border-top-left-radius: 50%30px !important;
+  border-top-right-radius: 14%11px !important;
+  border-bottom-right-radius: 30%20px !important;
+  border-radius: 0 0 0 10px;
   border: 2px solid rgba(141, 139, 139, 0.8);
   background: rgb(20, 20, 20);
-  cursor: pointer;
-  top: 435px;
+  top: 440px;
   right: 20px;
 }
 
@@ -241,15 +238,76 @@
   display: flex;
   width: 66px;
   height: 56px;
-  border-top-left-radius: 50%25px;
-  border-top-right-radius: 7%6px;
-  border-bottom-left-radius: 15%7px;
-  border-bottom-right-radius: 30%17px;
+  border-top-left-radius: 50%25px !important;
+  border-top-right-radius: 9%7px !important;
+  border-bottom-right-radius: 30%17px !important;
+  border-radius: 0 0 0 10px;
   background: black;
   background-image: linear-gradient(140deg, rgba(130, 130, 130, 0.3) 0%, rgba(255, 255, 255, 0.3) 30%, rgba(100, 100, 100, 0.4) 75%);
-  cursor: pointer;
   top: 2px;
   left: 2px;
+}
+
+.coin-entrance3 {
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid rgb(140, 140, 140);
+  background: radial-gradient(circle at 50%, rgba(60, 60, 90, 0.5), rgba(20, 20, 50, 0.5) 60%, rgba(120, 120, 150, 0.5) 70%, rgba(150, 150, 180, 0.5) 95%);
+  background-image: linear-gradient(160deg, rgba(90, 90, 125, 0.2) 0%, rgba(215, 215, 255, 0.5) 50%, rgba(190, 190, 220, 0.1) 87%);
+  top: 1px;
+  left: 38px;
+}
+
+.coin-entrance4 {
+  z-index: 6;
+  position: absolute;
+  background: black;
+  height: 2px;
+  width: 19px;
+  border-radius: 1px;
+  cursor: pointer;
+  cursor: -moz-pointer;
+  cursor: -webkit-pointer;
+  top: 12px;
+  left: 3px;
+}
+
+.coin-entrance4:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.coin-entrance5 {
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  width: 47px;
+  height: 37px;
+  border-top-right-radius: 100%30px !important;
+  border-radius: 25% 0 15% 10px;
+  border: 1px solid rgb(140, 140, 140);
+  background: radial-gradient(circle at 50%, rgba(60, 60, 90, 0.5), rgba(20, 20, 50, 0.5) 60%, rgba(120, 120, 150, 0.5) 70%, rgba(150, 150, 180, 0.5) 95%);
+  background-image: linear-gradient(160deg, rgba(90, 90, 125, 0.2) 0%, rgba(215, 215, 255, 0.5) 50%, rgba(190, 190, 220, 0.1) 87%);
+  top: 16px;
+  left: 1px;
+}
+
+.coin-base-pin {
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgb(40, 40, 40);
+  background: radial-gradient(circle at 50%, rgba(90, 90, 110, 0.9), rgba(100, 100, 110, 0.9) 60%, rgba(120, 120, 140, 0.6) 70%, rgba(150, 150, 180, 0.6) 95%);
+  /* background-image: linear-gradient(160deg, rgba(90, 90, 125, 0.2) 0%, rgba(215, 215, 255, 0.5) 50%, rgba(190, 190, 220, 0.1) 87%); */
+  top: 16px;
 }
 
 .bg-coin {
