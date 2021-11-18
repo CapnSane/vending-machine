@@ -610,10 +610,12 @@
   position: absolute;
   width: 451px;
   height: 64px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6666);
   /* background-image: linear-gradient(140deg, rgba(0, 0, 0, 0.8) 0%, rgba(90, 90, 90, 0.8) 50%, rgba(0, 0, 0, 0.8) 75%); */
   top: 821px;
   left: 40px;
+  box-shadow: 5px 0 20px rgb(0, 0, 0);
+
 }
 
 .text-center {
