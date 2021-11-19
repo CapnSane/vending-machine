@@ -99,25 +99,16 @@
   left: 1px;
 }
 
+
 .money-stamp1 {
   z-index: 6;
   position: absolute;
-  border-top: 10px solid red;
+  border-top: 30px solid red;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   height: 0;
-  width: 34px;
-  top: 12px;
-  left: 8px;
-}
-
-.money-stamp2 {
-  z-index: 6;
-  position: absolute;
-  border-top: 10px solid red;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  height: 0;
-  width: 4px;
-  top: 21px;
+  width: 15px;
+  top: 10px;
   left: 8px;
 }
 
