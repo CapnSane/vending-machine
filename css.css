@@ -164,10 +164,10 @@
   width: 37px;
   height: 22px;
   border-radius: 2px;
-  border-top: 1px ridge rgb(100, 100, 140);
-  border-right: 1px ridge rgb(50, 50, 100);
-  border-bottom: 1px ridge rgb(60, 60, 110);
-  border-left: 1px ridge rgb(100, 100, 150);
+  border-top: 1px inset rgb(100, 100, 140);
+  border-right: 1px inset rgb(50, 50, 100);
+  border-bottom: 1px inset rgb(60, 60, 110);
+  border-left: 1px inset rgb(100, 100, 150);
   background: rgb(0, 0, 160);
   background-image: linear-gradient(140deg,
       rgba(100, 100, 190, 0.3) 0%,
@@ -186,9 +186,57 @@
   border-radius: 3px;
   border: 1px solid rgb(210, 210, 210);
   background: rgb(60, 60, 60);
-  cursor: pointer;
-  top: 48px;
+  top: 46px;
   left: 6px
+}
+
+.key-group123 {
+  z-index: 5;
+  position: absolute;
+  width: 47px;
+  height: 46px;
+  top: 4px;
+  left: 4px;
+
+}
+
+.number1 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 0;
+}
+
+.number2 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 14px;
+}
+
+.number3 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 28px
 }
 
 .card-entrance1 {
