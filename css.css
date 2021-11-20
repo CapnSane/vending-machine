@@ -148,14 +148,47 @@
   z-index: 4;
   position: absolute;
   display: flex;
-  width: 60px;
+  width: 61px;
   height: 100px;
   border-radius: 5px;
-  border: 2px ridge rgb(210, 210, 210);
+  border: 1px solid rgb(190, 190, 190);
   background: gray;
-  cursor: pointer;
   top: 270px;
   right: 24px;
+}
+
+.credit-card-screen {
+  z-index: 5;
+  position: absolute;
+  /* display: flex; */
+  width: 37px;
+  height: 22px;
+  border-radius: 2px;
+  border-top: 1px ridge rgb(100, 100, 140);
+  border-right: 1px ridge rgb(50, 50, 100);
+  border-bottom: 1px ridge rgb(60, 60, 110);
+  border-left: 1px ridge rgb(100, 100, 150);
+  background: rgb(0, 0, 160);
+  background-image: linear-gradient(140deg,
+      rgba(100, 100, 190, 0.3) 0%,
+      rgba(200, 200, 255, 0.4) 60%,
+      rgba(120, 120, 215, 0.5) 80%);
+  top: 12px;
+  left: 11px
+}
+
+.credit-card-keyboard {
+  z-index: 5;
+  position: absolute;
+  /* display: flex; */
+  width: 47px;
+  height: 46px;
+  border-radius: 3px;
+  border: 1px solid rgb(210, 210, 210);
+  background: rgb(60, 60, 60);
+  cursor: pointer;
+  top: 48px;
+  left: 6px
 }
 
 .card-entrance1 {
