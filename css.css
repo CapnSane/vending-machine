@@ -151,10 +151,18 @@
   width: 61px;
   height: 100px;
   border-radius: 5px;
-  border: 1px solid rgb(190, 190, 190);
-  background: gray;
+  border-top: 1px solid rgb(170, 170, 170);
+  border-right: 1px solid rgb(110, 110, 110);
+  border-bottom: 1px solid rgb(90, 90, 90);
+  border-left: 1px solid rgb(150, 150, 150);
+  background: rgb(100, 100, 100);
+  background-image: linear-gradient(140deg,
+      rgba(100, 100, 130, 0.3) 0%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(100, 100, 130, 0.3) 75%);
   top: 270px;
   right: 24px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
 .credit-card-screen {
@@ -173,7 +181,7 @@
       rgba(100, 100, 190, 0.3) 0%,
       rgba(200, 200, 255, 0.4) 60%,
       rgba(120, 120, 215, 0.5) 80%);
-  top: 12px;
+  top: 8px;
   left: 11px
 }
 
@@ -182,11 +190,11 @@
   position: absolute;
   /* display: flex; */
   width: 47px;
-  height: 46px;
+  height: 55px;
   border-radius: 3px;
   border: 1px solid rgb(210, 210, 210);
   background: rgb(60, 60, 60);
-  top: 46px;
+  top: 39px;
   left: 6px
 }
 
@@ -195,7 +203,7 @@
   position: absolute;
   width: 47px;
   height: 46px;
-  top: 4px;
+  top: 3px;
   left: 4px;
 
 }
@@ -211,6 +219,12 @@
   background: rgb(130, 130, 130);
   cursor: pointer;
   left: 0;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number1:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
 }
 
 .number2 {
@@ -224,6 +238,12 @@
   background: rgb(130, 130, 130);
   cursor: pointer;
   left: 14px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number2:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
 }
 
 .number3 {
@@ -236,7 +256,280 @@
   border: 1px outset rgb(60, 60, 60);
   background: rgb(130, 130, 130);
   cursor: pointer;
-  left: 28px
+  left: 28px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number3:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-group456 {
+  z-index: 5;
+  position: absolute;
+  width: 47px;
+  height: 46px;
+  top: 13px;
+  left: 4px;
+
+}
+
+.number4 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 0;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number4:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.number5 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 14px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number5:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.number6 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 28px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number6:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-group789 {
+  z-index: 5;
+  position: absolute;
+  width: 47px;
+  height: 46px;
+  top: 23px;
+  left: 4px;
+
+}
+
+.number7 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 0;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number7:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.number8 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 14px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number8:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.number9 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 28px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number9:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-group0 {
+  z-index: 5;
+  position: absolute;
+  width: 47px;
+  height: 46px;
+  top: 33px;
+  left: 4px;
+
+}
+
+.asterisk {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 0;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.asterisk:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.number0 {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 14px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.number0:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.hash {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 60);
+  background: rgb(130, 130, 130);
+  cursor: pointer;
+  left: 28px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.hash:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-group-cmd {
+  z-index: 5;
+  position: absolute;
+  width: 47px;
+  height: 46px;
+  top: 43px;
+  left: 4px;
+}
+
+.button-cancel {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(80, 20, 20);
+  background: rgb(200, 0, 0);
+  cursor: pointer;
+  left: 0;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.button-cancel:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-clear {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(60, 60, 0);
+  background: rgb(240, 190, 0);
+  cursor: pointer;
+  left: 14px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.button-clear:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
+}
+
+.button-enter {
+  z-index: 6;
+  position: absolute;
+  /* display: flex; */
+  width: 10px;
+  height: 7px;
+  border-radius: 1px;
+  border: 1px outset rgb(0, 60, 0);
+  background: rgb(0, 180, 0);
+  cursor: pointer;
+  left: 28px;
+  box-shadow: 0 2px rgb(70, 70, 70);
+}
+
+.button-enter:active {
+  box-shadow: 0 1px rgb(50, 50, 50);
+  transform: translateY(1px);
 }
 
 .card-entrance1 {
