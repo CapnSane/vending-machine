@@ -810,6 +810,8 @@
 .bg-push {
   z-index: 3;
   position: absolute;
+  justify-content: center;
+  align-items: center;
   width: 255px;
   height: 95px;
   border-radius: 10px;
@@ -826,10 +828,10 @@
   height: 50px;
   border-radius: 3px;
   border: 2px solid rgb(61, 61, 61);
-  background: white;
+  background: black;
   background-image: linear-gradient(to bottom,
       rgba(255, 0, 0, 1) 50%,
-      rgba(80, 80, 80, 0.8) 50%);
+      rgba(80, 80, 80, 0.9) 50%);
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
@@ -837,30 +839,38 @@
   left: 20px;
 }
 
+.push:active {
+  width: 210px;
+  height: 50px;
+  background: black;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 0, 0, 0.9) 50%,
+      rgba(80, 80, 80, 0.8) 50%);
+  border-bottom-left-radius: 5%40px;
+  border-bottom-right-radius: 5%40px;
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  transform-origin: top;
+  transition: transform .4s;
+  transform: perspective(8000px) rotateX(60deg);
+}
+
 .push-bright {
-  z-index: 6;
+  z-index: 4;
   position: absolute;
   width: 210px;
   height: 50px;
   border-radius: 3px;
-  border: 2px solid rgba(50, 50, 50, 1);
-  background-image: linear-gradient(140deg,
-      rgba(30, 30, 30, 0.3) 0%,
-      rgba(190, 190, 190, 0.3) 50%,
-      rgba(255, 255, 255, 0.4) 50%,
-      rgba(190, 190, 190, 0.3) 50%,
-      rgba(30, 30, 30, 0.3) 90%);
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+  border-bottom: 2px solid rgba(50, 50, 50, 1);
+  background-image: linear-gradient(90deg,
+      rgba(30, 30, 30, 0.3),
+      rgba(120, 120, 120, 0.3),
+      rgba(150, 150, 150, 0.3),
+      rgba(120, 120, 120, 0.3),
+      rgba(30, 30, 30, 0.3));
   top: 20px;
   left: 20px;
-}
-
-.push-bright:active {
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
 }
 
 .footL1 {
@@ -1129,7 +1139,7 @@
 
 .text-push {
   position: relative;
-  bottom: 10px;
+  bottom: 13px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: white;
