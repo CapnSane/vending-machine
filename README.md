@@ -2,11 +2,15 @@
 
 ### vending-machine
 
-Project for practicing everything I want - Good chance to discover the secrets of CSS universe.
+Project for practicing everything I want - Good chance to discover the secrets of CSS universe and control everything with JavaScript.
 
 ### Why vending machine?
 
 Because it's awesome, it's amazing, it's fantastic, it's gorgeous, it's splendid!
+
+### And so?
+
+The main goal is design a complete functional machine, with credit card working, product selector showing the options on the screen, put money on it, getting the change, inserting coins, and so on...
 
 <br>
 
