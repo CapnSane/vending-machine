@@ -1,6 +1,6 @@
 # About the project
 
-### vending-machine
+## vending-machine
 
 Project for practicing everything I want - Good chance to discover the secrets of CSS universe and control everything with JavaScript.
 
@@ -12,7 +12,20 @@ Because it's awesome, it's amazing, it's fantastic, it's gorgeous, it's splendid
 
 The main goal is design a complete functional machine, with credit card working, product selector showing the options on the screen, put money on it, getting the change, inserting coins, and so on...
 
+#### Features
+
+Firstly, the project was designed for CSS practicing and not more. The idea of making everything with CSS is awesome. However, some logical features need the JavaScript coding to work well. Maybe more effort is needed to put
+on it whether we want to code everything in CSS, even if we want create some logical things, but I think that the drawing is completed with CSS, and JavaScript can be used for acquiring data from the application.
+
+The first feature that was created is "getting the values" from credit card machine. It will be used to acquire the password from the credit card machine keyboard and converted in data when someone wants to purchase an item.
+
+The second feature is about the item choice. This is a little bit hard in comparison to the credit card function, because it is not only the fact of choosing the item, but all the process by itself. It needs the product exists inside the machine, needs a product matrix capable to distinguish the rows and columns and counts how many products is available there, receive the item request and responses when the user starts the purchase.
+
+The third one is when the item is available in the item exit. This feature tends to be hard not because of the coding, but because of a myriad of possibilities.
+
 <br>
+
+### Why do people love vending machines?
 
 #### Three reasons why there are so many vending machines in Japan
 
