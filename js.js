@@ -6,11 +6,18 @@ function numberGen(clicked_id) {
 let count = '';
 function addAsterisk() {
   count += '*';
-  document.getElementById('demo').innerHTML = count;
+  document.getElementById('pwScreen').innerHTML = count;
   console.log(count);
 }
 
 function removeAsterisk() {
   count = count.slice(0, -1);
-  document.getElementById('demo').innerHTML = count;
+  document.getElementById('pwScreen').innerHTML = count;
+  console.log(count);
+}
+
+function cancelAsterisk() {
+  count = '';
+  document.getElementById('pwScreen').innerHTML = count;
+  console.log(count);
 }
