@@ -31,53 +31,57 @@
           </div>
         </div>
         <div class="credit-card">
-          <div class="credit-card-screen"></div>
+          <div class="credit-card-screen">
+            <div style="font-size: 6px; color: white;">Password: </div>
+            <div id="demo" style="font-size: 6px; color: white;"></div>
+
+          </div>
           <div class="credit-card-keyboard">
 
             <div class="button-group123">
-              <div id="number1" onclick="numberGen(this.id)" class="number1">
+              <div id="number1" onclick="numberGen(this.id);addAsterisk()" class="number1">
                 <div class="credit-card-text noselect">1</div>
               </div>
-              <div id="number2" onclick="numberGen(this.id)" class="number2">
+              <div id="number2" onclick="numberGen(this.id);addAsterisk()" class="number2">
                 <div class="credit-card-text noselect">2</div>
               </div>
-              <div id="number3" onclick="numberGen(this.id)" class="number3">
+              <div id="number3" onclick="numberGen(this.id);addAsterisk()" class="number3">
                 <div class="credit-card-text noselect">3</div>
               </div>
             </div>
 
             <div class="button-group456">
-              <div id="number4" onclick="numberGen(this.id)" class="number4">
+              <div id="number4" onclick="numberGen(this.id);addAsterisk()" class="number4">
                 <div class="credit-card-text noselect">4</div>
               </div>
-              <div id="number5" onclick="numberGen(this.id)" class="number5">
+              <div id="number5" onclick="numberGen(this.id);addAsterisk()" class="number5">
                 <div class="credit-card-text noselect">5</div>
               </div>
-              <div id="number6" onclick="numberGen(this.id)" class="number6">
+              <div id="number6" onclick="numberGen(this.id);addAsterisk()" class="number6">
                 <div class="credit-card-text noselect">6</div>
               </div>
             </div>
 
             <div class="button-group789">
-              <div id="number7" onclick="numberGen(this.id)" class="number7">
+              <div id="number7" onclick="numberGen(this.id);addAsterisk()" class="number7">
                 <div class="credit-card-text noselect">7</div>
               </div>
-              <div id="number8" onclick="numberGen(this.id)" class="number8">
+              <div id="number8" onclick="numberGen(this.id);addAsterisk()" class="number8">
                 <div class="credit-card-text noselect">8</div>
               </div>
-              <div id="number9" onclick="numberGen(this.id)" class="number9">
+              <div id="number9" onclick="numberGen(this.id);addAsterisk()" class="number9">
                 <div class="credit-card-text noselect">9</div>
               </div>
             </div>
 
             <div class="button-group0">
-              <div id="asterisk" onclick="numberGen(this.id)" class="asterisk">
+              <div id="asterisk" onclick="numberGen(this.id);addAsterisk()" class="asterisk">
                 <div class="credit-card-text noselect">∗</div>
               </div>
-              <div id="number0" onclick="numberGen(this.id)" class="number0">
+              <div id="number0" onclick="numberGen(this.id);addAsterisk()" class="number0">
                 <div class="credit-card-text noselect">0</div>
               </div>
-              <div id="hash" onclick="numberGen(this.id)" class="hash">
+              <div id="hash" onclick="numberGen(this.id);addAsterisk()" class="hash">
                 <div class="credit-card-text noselect">#</div>
               </div>
             </div>
@@ -86,7 +90,7 @@
               <div class="button-cancel">
                 <div class="credit-card-text noselect">×</div>
               </div>
-              <div class="button-clear">
+              <div class="button-clear" onclick="removeAsterisk()">
                 <div class="credit-card-text noselect">⬅</div>
               </div>
               <div class="button-enter">
