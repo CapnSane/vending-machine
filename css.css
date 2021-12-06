@@ -185,6 +185,11 @@
   left: 11px
 }
 
+.credit-card-screen-text {
+  font-size: 6px;
+  color: white;
+}
+
 .credit-card-keyboard {
   z-index: 5;
   position: absolute;
