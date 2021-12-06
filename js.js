@@ -21,3 +21,12 @@ function cancelAsterisk() {
   document.getElementById('pwScreen').innerHTML = count;
   console.log(count);
 }
+
+function enterPassword() {
+  document.getElementById('value').innerHTML = '';
+  document.getElementById('pwScreen').innerHTML = 'Approved!';
+  setTimeout(() => {
+    document.getElementById('pwScreen').innerHTML = '';
+  }, 3000);
+  console.log(count);
+}

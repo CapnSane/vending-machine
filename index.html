@@ -32,8 +32,8 @@
         </div>
         <div class="credit-card">
           <div class="credit-card-screen">
-            <div style="font-size: 6px; color: white;">Password: </div>
-            <div id="pwScreen" style="font-size: 6px; color: white;"></div>
+            <div id="value" class="credit-card-screen-text">Value: ¥600 </div>
+            <div id="pwScreen" class="credit-card-screen-text">Password:</div>
           </div>
           <div class="credit-card-keyboard">
 
@@ -92,7 +92,7 @@
               <div class="button-clear" onclick="removeAsterisk()">
                 <div class="credit-card-text noselect">⬅</div>
               </div>
-              <div class="button-enter">
+              <div class="button-enter" onclick="enterPassword()">
                 <div class="credit-card-text noselect">⃝</div>
               </div>
             </div>
