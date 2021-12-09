@@ -57,17 +57,241 @@
   z-index: 4;
   position: absolute;
   display: flex;
-  width: 80px;
-  height: 60px;
+  width: 81px;
+  height: 61px;
   border-radius: 2px;
   border-top: 3px solid rgb(40, 40, 40);
   border-right: 3px solid rgb(100, 100, 100);
   border-bottom: 3px solid rgb(100, 100, 100);
   border-left: 3px solid rgb(40, 40, 40);
   background: rgb(0, 0, 160);
-  cursor: pointer;
   top: 35px;
-  right: 15px;
+  right: 13px;
+}
+
+.option1 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 4px;
+  left: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option1:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option2 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 4px;
+  left: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option2:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option3 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 4px;
+  left: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option3:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option4 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 18px;
+  left: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option4:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option5 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 18px;
+  left: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option5:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option6 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 18px;
+  left: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option6:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option7 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 32px;
+  left: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option7:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option8 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 32px;
+  left: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option8:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option9 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 32px;
+  left: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option9:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option10 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 46px;
+  left: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option10:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option11 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 46px;
+  left: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option11:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option12 {
+  position: absolute;
+  width: 19px;
+  height: 10px;
+  top: 46px;
+  left: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  background: rgba(200, 200, 255, 0.2);
+  cursor: pointer;
+}
+
+.option12:active {
+  color: rgba(0, 255, 255, 1);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.3)
+}
+
+.option-text {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 8px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .bg-money-bill1 {
