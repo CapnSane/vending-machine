@@ -30,3 +30,5 @@ function enterPassword() {
   }, 3000);
   console.log(count);
 }
+
+// TODO Criar função para exportar valores dos itens para a máquina de cartão
