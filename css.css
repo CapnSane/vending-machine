@@ -1395,3 +1395,27 @@
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
+
+.stand1 {
+  z-index: 2;
+  /* display: flex; */
+  /* position: relative; TODO */
+  width: 360px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 100px;
+  background: gray;
+}
+
+.stand2 {
+  z-index: 2;
+  /* display: flex; */
+  /* position: relative; TODO*/
+  width: 360px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 250px;
+  background: gray;
+}
