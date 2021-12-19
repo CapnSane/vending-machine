@@ -35,10 +35,12 @@ function payWithCard(clicked_id) {
 }
 
 function enterPassword() {
+  count = '';
   document.getElementById('pwScreen').innerHTML = 'Approved!';
   setTimeout(() => {
     document.getElementById('pwScreen').innerHTML = '';
     document.getElementById('value').innerHTML = '';
+    document.getElementById('pwScreen').innerHTML = count;
   }, 3000);
   console.log(count);
 }
