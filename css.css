@@ -34,6 +34,25 @@
   right: 0;
 }
 
+.glass-bg {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 535px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: rgba(20, 20, 20, 0.6);
+  border-style: double;
+  background: gray;
+  /* background-image: linear-gradient(140deg,
+      rgba(170, 170, 170, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(190, 190, 215, 0.8) 75%); */
+  right: 140px;
+  top: 35px;
+}
+
 .glass-display {
   z-index: 4;
   display: flex;
@@ -44,13 +63,33 @@
   border-width: 2px;
   border-color: rgba(20, 20, 20, 0.6);
   border-style: double;
-  background: rgb(200, 200, 230);
+  /* background: rgb(200, 200, 230); */
   background-image: linear-gradient(140deg,
-      rgba(170, 170, 170, 0.8) 0%,
-      rgba(255, 255, 255, 0.8) 50%,
-      rgba(190, 190, 215, 0.8) 75%);
+      rgba(170, 170, 170, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(190, 190, 215, 0.4) 75%);
   right: 140px;
   top: 35px;
+  /* TODO */
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+  -moz-transition: 2s ease;
+  -ms-transition: 2s ease;
+  -o-transition: 2s ease;
+}
+
+.glass-display:hover {
+  /* background: rgb(200, 200, 230); */
+  background-image: linear-gradient(140deg,
+      rgba(170, 170, 170, 0.4) 3%,
+      rgba(255, 255, 255, 0.4) 53%,
+      rgba(190, 190, 215, 0.4) 78%);
+  /* TODO */
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+  -moz-transition: 2s ease;
+  -ms-transition: 2s ease;
+  -o-transition: 2s ease;
 }
 
 .screen {
@@ -1397,25 +1436,73 @@
 }
 
 .stand1 {
-  z-index: 2;
-  /* display: flex; */
-  /* position: relative; TODO */
-  width: 360px;
+  z-index: 3;
+  position: absolute;
+  width: 350px;
   height: 8px;
   border: 1px solid transparent;
   border-radius: 2px;
-  top: 100px;
-  background: gray;
+  top: 120px;
+  left: 22px;
+  background: black;
 }
 
 .stand2 {
-  z-index: 2;
-  /* display: flex; */
-  /* position: relative; TODO*/
-  width: 360px;
+  z-index: 3;
+  position: absolute;
+  width: 350px;
   height: 8px;
   border: 1px solid transparent;
   border-radius: 2px;
-  top: 250px;
-  background: gray;
+  top: 220px;
+  left: 22px;
+  background: black;
 }
+
+.stand3 {
+  z-index: 3;
+  position: absolute;
+  width: 350px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 320px;
+  left: 22px;
+  background: black;
+}
+
+.stand4 {
+  z-index: 3;
+  position: absolute;
+  width: 350px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 420px;
+  left: 22px;
+  background: black;
+}
+
+.stand5 {
+  z-index: 3;
+  position: absolute;
+  width: 350px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 520px;
+  left: 22px;
+  background: black;
+}
+
+/* .stand6 {
+  z-index: 3;
+  position: absolute;
+  width: 350px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  top: 620px;
+  left: 22px;
+  background: black;
+} */
