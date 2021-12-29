@@ -1445,6 +1445,10 @@
   top: 120px;
   left: 22px;
   background: black;
+  background-image: linear-gradient(180deg,
+      rgba(70, 70, 100, 0.2) 3%,
+      rgba(190, 190, 210, 0.4) 53%,
+      rgba(90, 90, 120, 0.2) 78%);
 }
 
 .stand2 {
@@ -1457,6 +1461,10 @@
   top: 220px;
   left: 22px;
   background: black;
+  background-image: linear-gradient(180deg,
+      rgba(70, 70, 100, 0.2) 3%,
+      rgba(190, 190, 210, 0.4) 53%,
+      rgba(90, 90, 120, 0.2) 78%);
 }
 
 .stand3 {
@@ -1469,6 +1477,10 @@
   top: 320px;
   left: 22px;
   background: black;
+  background-image: linear-gradient(180deg,
+      rgba(70, 70, 100, 0.2) 3%,
+      rgba(190, 190, 210, 0.4) 53%,
+      rgba(90, 90, 120, 0.2) 78%);
 }
 
 .stand4 {
@@ -1481,6 +1493,10 @@
   top: 420px;
   left: 22px;
   background: black;
+  background-image: linear-gradient(180deg,
+      rgba(70, 70, 100, 0.2) 3%,
+      rgba(190, 190, 210, 0.4) 53%,
+      rgba(90, 90, 120, 0.2) 78%);
 }
 
 .stand5 {
@@ -1493,6 +1509,10 @@
   top: 520px;
   left: 22px;
   background: black;
+  background-image: linear-gradient(180deg,
+      rgba(70, 70, 100, 0.2) 3%,
+      rgba(190, 190, 210, 0.4) 53%,
+      rgba(90, 90, 120, 0.2) 78%);
 }
 
 /* .stand6 {
