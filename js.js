@@ -1,7 +1,7 @@
 let count = '';
 let valueAdd = '';
 let disapprovedCount = '';
-let password = 123456;
+let password = 123;
 
 function numberGen(clicked_id) {
   var storedValue = document.getElementById(clicked_id).innerText;
@@ -12,14 +12,12 @@ function numberGen(clicked_id) {
 function addAsterisk() {
   count += '*';
   document.getElementById('pwScreen').innerHTML = count;
-  console.log(count);
 }
 
 function removeAsterisk() {
   count = count.slice(0, -1);
   valueAdd = valueAdd.slice(0, -1);
   document.getElementById('pwScreen').innerHTML = count;
-  console.log(count);
 }
 
 function cancelAsterisk() {
@@ -35,7 +33,6 @@ function cancelAsterisk() {
     document.getElementById('pwScreen').innerHTML = '';
     document.getElementById('value').innerHTML = '';
   }
-  console.log(count);
 }
 
 function payWithCard(clicked_id) {
@@ -50,30 +47,33 @@ function payWithCard(clicked_id) {
 
 function enterPassword() {
   count = '';
-  if (valueAdd == password && disapprovedCount.length < 2) {
-    document.getElementById('pwScreen').innerHTML = 'Approved!';
+  if (valueAdd == password && disapprovedCount.length <= 2) {
     disapprovedCount = '';
+    console.log(valueAdd);
+    valueAdd = '';
+    document.getElementById('pwScreen').innerHTML = 'Approved!';
     setTimeout(() => {
       document.getElementById('pwScreen').innerHTML = '';
       document.getElementById('value').innerHTML = '';
       document.getElementById('pwScreen').innerHTML = count;
     }, 3000);
     console.log(count);
-  } else if (disapprovedCount.length < 2) {
-    document.getElementById('pwScreen').innerHTML = 'Retry';
+  } else if (disapprovedCount.length >= 2 || disapprovedCount == '***') {
     valueAdd = '';
-    disapprovedCount += '*';
-    setTimeout(() => {
-      document.getElementById('pwScreen').innerHTML = '';
-      document.getElementById('value').innerHTML = '';
-    }, 1000);
-  } else if (disapprovedCount.length >= 2) {
     disapprovedCount += '*';
     document.getElementById('pwScreen').innerHTML = 'Card blocked';
     setTimeout(() => {
       document.getElementById('pwScreen').innerHTML = '';
       document.getElementById('value').innerHTML = '';
     }, 3000);
+  } else if (disapprovedCount.length <= 2) {
+    valueAdd = '';
+    document.getElementById('pwScreen').innerHTML = 'Retry';
+    disapprovedCount += '*';
+    setTimeout(() => {
+      document.getElementById('pwScreen').innerHTML = '';
+      document.getElementById('value').innerHTML = '';
+    }, 1000);
   }
   console.log(valueAdd);
   console.log(disapprovedCount);
