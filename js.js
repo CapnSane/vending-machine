@@ -25,10 +25,16 @@ function removeAsterisk() {
 function cancelAsterisk() {
   count = '';
   valueAdd = '';
-  disapprovedCount = '';
-  document.getElementById('pwScreen').innerHTML = count;
-  document.getElementById('pwScreen').innerHTML = '';
-  document.getElementById('value').innerHTML = '';
+  if (disapprovedCount.length >= 2) {
+    document.getElementById('pwScreen').innerHTML = count;
+    document.getElementById('pwScreen').innerHTML = '';
+    document.getElementById('value').innerHTML = '';
+  } else {
+    disapprovedCount = '';
+    document.getElementById('pwScreen').innerHTML = count;
+    document.getElementById('pwScreen').innerHTML = '';
+    document.getElementById('value').innerHTML = '';
+  }
   console.log(count);
 }
 
@@ -44,7 +50,7 @@ function payWithCard(clicked_id) {
 
 function enterPassword() {
   count = '';
-  if (valueAdd == password) {
+  if (valueAdd == password && disapprovedCount.length < 2) {
     document.getElementById('pwScreen').innerHTML = 'Approved!';
     disapprovedCount = '';
     setTimeout(() => {
@@ -53,15 +59,16 @@ function enterPassword() {
       document.getElementById('pwScreen').innerHTML = count;
     }, 3000);
     console.log(count);
-  } else if (disapprovedCount != '**') {
+  } else if (disapprovedCount.length < 2) {
     document.getElementById('pwScreen').innerHTML = 'Retry';
     valueAdd = '';
+    disapprovedCount += '*';
     setTimeout(() => {
       document.getElementById('pwScreen').innerHTML = '';
       document.getElementById('value').innerHTML = '';
     }, 1000);
+  } else if (disapprovedCount.length >= 2) {
     disapprovedCount += '*';
-  } else if (disapprovedCount == '**') {
     document.getElementById('pwScreen').innerHTML = 'Card blocked';
     setTimeout(() => {
       document.getElementById('pwScreen').innerHTML = '';
