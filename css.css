@@ -1,3 +1,8 @@
+/* body {
+  background-repeat: no-repeat;
+  background-image: url(/assets/mall_corridor2.jpg);
+} */
+
 #shell {
   z-index: 1;
   position: absolute;
@@ -1538,34 +1543,69 @@
       rgba(90, 90, 120, 0.2) 78%);
 }
 
-.spot1 {
+.floor1 {
   position: absolute;
-  left: 10px;
+  width: 350px;
   top: 43px;
+  left: 5px;
+}
+
+.floor2 {
+  position: absolute;
+  width: 350px;
+  top: 143px;
+  left: 5px;
+}
+
+.floor3 {
+  position: absolute;
+  width: 350px;
+  top: 243px;
+  left: 5px;
+}
+
+.floor4 {
+  position: absolute;
+  width: 350px;
+  top: 343px;
+  left: 5px;
+}
+
+.floor5 {
+  position: absolute;
+  width: 350px;
+  top: 443px;
+  left: 5px;
+}
+
+.spot1 {
+  position: relative;
+  left: 10px;
+  height: 0px;
 }
 
 .spot2 {
-  position: absolute;
+  position: relative;
   left: 75px;
-  top: 43px;
+  height: 0px;
 }
 
 .spot3 {
-  position: absolute;
+  position: relative;
   left: 137px;
-  top: 43px;
+  height: 0px;
 }
 
 .spot4 {
-  position: absolute;
+  position: relative;
   left: 199px;
-  top: 43px;
+  height: 0px;
 }
 
 .spot5 {
-  position: absolute;
+  position: relative;
   left: 261px;
-  top: 43px;
+  height: 0px;
 }
 
 .pepsi-spot1l {
@@ -1691,6 +1731,129 @@
   bottom: 172px;
 }
 
+.sevenUp-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url("/assets/7up.png");
+  left: 35px;
+}
+
+.sevenUp-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url("/assets/7up.png");
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.sevenUp-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url("/assets/7up.png");
+  left: 43px;
+  bottom: 172px;
+}
+
+.sevenUp-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url("/assets/7up.png");
+  left: 35px;
+}
+
+.sevenUp-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url("/assets/7up.png");
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.sevenUp-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url("/assets/7up.png");
+  left: 35px;
+  bottom: 172px;
+}
+
+.sevenUp-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url("/assets/7up.png");
+  left: 35px;
+}
+
+.sevenUp-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url("/assets/7up.png");
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.sevenUp-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url("/assets/7up.png");
+  left: 27px;
+  bottom: 172px;
+}
+
 .trapezoid1 {
   z-index: 2;
   position: absolute;
@@ -1750,15 +1913,3 @@
   left: 37px;
   filter: blur(1px);
 }
-
-/* .stand6 {
-  z-index: 3;
-  position: absolute;
-  width: 350px;
-  height: 8px;
-  border: 1px solid transparent;
-  border-radius: 2px;
-  top: 620px;
-  left: 22px;
-  background: black;
-} */
