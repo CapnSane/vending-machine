@@ -1618,7 +1618,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/pepsi.png);
+    url("/assets/pepsi.png");
   left: 35px;
 }
 
@@ -1630,7 +1630,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 39px;
   bottom: 86px;
 
@@ -1644,7 +1644,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 43px;
   bottom: 172px;
 }
@@ -1659,7 +1659,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/pepsi.png);
+    url("/assets/pepsi.png");
   left: 35px;
 }
 
@@ -1671,7 +1671,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 35px;
   bottom: 86px;
 
@@ -1685,7 +1685,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 35px;
   bottom: 172px;
 }
@@ -1700,7 +1700,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/pepsi.png);
+    url("/assets/pepsi.png");
   left: 35px;
 }
 
@@ -1712,7 +1712,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 31px;
   bottom: 86px;
 
@@ -1726,7 +1726,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/pepsi.png);
+  background-image: url("/assets/pepsi.png");
   left: 27px;
   bottom: 172px;
 }
@@ -1741,7 +1741,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/7up.png);
+    url("/assets/7up.png");
   left: 35px;
 }
 
@@ -1753,7 +1753,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 39px;
   bottom: 86px;
 
@@ -1767,7 +1767,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 43px;
   bottom: 172px;
 }
@@ -1782,7 +1782,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/7up.png);
+    url("/assets/7up.png");
   left: 35px;
 }
 
@@ -1794,7 +1794,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 35px;
   bottom: 86px;
 
@@ -1808,7 +1808,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 35px;
   bottom: 172px;
 }
@@ -1823,7 +1823,7 @@
   background-size: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.4)),
-    url(/assets/7up.png);
+    url("/assets/7up.png");
   left: 35px;
 }
 
@@ -1835,7 +1835,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 38px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 31px;
   bottom: 86px;
 
@@ -1849,7 +1849,7 @@
   background: no-repeat;
   background-position: center;
   background-size: 36px;
-  background-image: url(/assets/7up.png);
+  background-image: url("/assets/7up.png");
   left: 27px;
   bottom: 172px;
 }
