@@ -71,7 +71,7 @@ function enterPassword() {
     document.getElementById('pwScreen').innerHTML = 'Retry';
     disapprovedCount += '*';
     setTimeout(() => {
-      document.getElementById('pwScreen').innerHTML = '';
+      document.getElementById('pwScreen').innerHTML = 'Password:';
       document.getElementById('value').innerHTML = '';
     }, 1000);
   }
