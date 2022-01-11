@@ -23,7 +23,7 @@ The second feature is about the item choice. This is a little bit hard in compar
 
 The third one is when the item is available in the item exit. This feature tends to be hard not because of the coding, but because of a myriad of possibilities.
 
-<br>
+</br>
 
 ### Why do people love vending machines?
 
