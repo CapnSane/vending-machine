@@ -2223,6 +2223,621 @@
   bottom: 172px;
 }
 
+.fresca-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/fresca.png);
+  left: 35px;
+}
+
+.fresca-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/fresca.png);
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.fresca-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/fresca.png);
+  left: 43px;
+  bottom: 172px;
+}
+
+.fresca-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/fresca.png);
+  left: 35px;
+}
+
+.fresca-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/fresca.png);
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.fresca-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/fresca.png);
+  left: 35px;
+  bottom: 172px;
+}
+
+.fresca-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/fresca.png);
+  left: 35px;
+}
+
+.fresca-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/fresca.png);
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.fresca-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/fresca.png);
+  left: 27px;
+  bottom: 172px;
+}
+
+.meron-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/meron.png);
+  left: 35px;
+}
+
+.meron-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/meron.png);
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.meron-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/meron.png);
+  left: 43px;
+  bottom: 172px;
+}
+
+.meron-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/meron.png);
+  left: 35px;
+}
+
+.meron-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/meron.png);
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.meron-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/meron.png);
+  left: 35px;
+  bottom: 172px;
+}
+
+.meron-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/meron.png);
+  left: 35px;
+}
+
+.meron-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/meron.png);
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.meron-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/meron.png);
+  left: 27px;
+  bottom: 172px;
+}
+
+.minna-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/minna.png);
+  left: 35px;
+}
+
+.minna-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/minna.png);
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.minna-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/minna.png);
+  left: 43px;
+  bottom: 172px;
+}
+
+.minna-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/minna.png);
+  left: 35px;
+}
+
+.minna-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/minna.png);
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.minna-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/minna.png);
+  left: 35px;
+  bottom: 172px;
+}
+
+.minna-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/minna.png);
+  left: 35px;
+}
+
+.minna-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/minna.png);
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.minna-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/minna.png);
+  left: 27px;
+  bottom: 172px;
+}
+
+.mtndew-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/mtndew.png);
+  left: 35px;
+}
+
+.mtndew-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/mtndew.png);
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.mtndew-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/mtndew.png);
+  left: 43px;
+  bottom: 172px;
+}
+
+.mtndew-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/mtndew.png);
+  left: 35px;
+}
+
+.mtndew-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/mtndew.png);
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.mtndew-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/mtndew.png);
+  left: 35px;
+  bottom: 172px;
+}
+
+.mtndew-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/mtndew.png);
+  left: 35px;
+}
+
+.mtndew-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/mtndew.png);
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.mtndew-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/mtndew.png);
+  left: 27px;
+  bottom: 172px;
+}
+
+.pokka-spot1l {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/pokka.png);
+  left: 35px;
+}
+
+.pokka-spot2l {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/pokka.png);
+  left: 39px;
+  bottom: 86px;
+
+}
+
+.pokka-spot3l {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/pokka.png);
+  left: 43px;
+  bottom: 172px;
+}
+
+.pokka-spot1m {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/pokka.png);
+  left: 35px;
+}
+
+.pokka-spot2m {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/pokka.png);
+  left: 35px;
+  bottom: 86px;
+
+}
+
+.pokka-spot3m {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/pokka.png);
+  left: 35px;
+  bottom: 172px;
+}
+
+.pokka-spot1r {
+  z-index: 11;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)),
+    url(assets/pokka.png);
+  left: 35px;
+}
+
+.pokka-spot2r {
+  z-index: 9;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 38px;
+  background-image: url(assets/pokka.png);
+  left: 31px;
+  bottom: 86px;
+
+}
+
+.pokka-spot3r {
+  z-index: 8;
+  position: relative;
+  width: 40px;
+  height: 80px;
+  background: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  background-image: url(assets/pokka.png);
+  left: 27px;
+  bottom: 172px;
+}
+
 .trapezoid1 {
   z-index: 2;
   position: absolute;
