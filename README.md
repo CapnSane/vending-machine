@@ -4,6 +4,14 @@
 
 Project for practicing everything I want - Good chance to discover the secrets of CSS universe and control everything with JavaScript.
 
+### Serving the page
+
+```shell
+python -m http.server 8000
+```
+
+For visualising please open on `http://localhost:8000/`.
+
 ### Why vending machine?
 
 Because it's awesome, it's amazing, it's fantastic, it's gorgeous, it's splendid!
